@@ -13,7 +13,7 @@
 //------------------------------------------------------------------------------
 
 
-#define Thread_Count 16  //This is where the number of threads is changed
+#define Thread_Count 16  //Faster speed up for number of threads
 //------------------------------------------------------------------------------
 
 pthread_mutex_t Mutex; // One mutex

@@ -25,7 +25,7 @@ def main():
     Timing.startlog()
     for i in range(len(c)):
         result.append(c[i] * d[i])
-        print(result[i]) #prints results for efficiency
+       # print(result[i]) #prints results for Data size Accuracy Approximations
     Timing.endlog()
 
 # Only run the functions if this module is run

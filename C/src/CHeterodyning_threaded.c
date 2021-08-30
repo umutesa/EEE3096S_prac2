@@ -1,6 +1,6 @@
 #include "CHeterodyning_threaded.h"
 
-float result [SAMPLE_COUNT];
+double result [SAMPLE_COUNT];
 
 // This is each thread's "main" function.  It receives a unique ID
 void* Thread_Main(void* Parameter){
@@ -50,8 +50,8 @@ int main(int argc, char** argv){
 
   printf("All threads have quit\n");
   printf("Time taken for threads to run = %lg ms\n", toc()/1e-3);
-  //printf("Output %d\f", result[1]);
-  //printf("Output %d\f", result[2]);
+ // printf("Output %f\n", result[1]); // checks precisions of data results
+ // printf("Output %f\n", result[2]);
 
 
   return 0;
